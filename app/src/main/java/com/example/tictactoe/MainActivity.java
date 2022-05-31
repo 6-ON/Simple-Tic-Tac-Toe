@@ -105,6 +105,9 @@ class Game {
 
         void processPlay(View box, Player me, Player other, int XorO) {
             ((ImageView) box).setImageResource(XorO);
+            box.setScaleX(0.004f);
+            box.setScaleY(0.004f);
+            box.animate().scaleY(1).scaleX(1).setDuration(100);
             box.setOnClickListener(null);
             fillAreaTemplate(me.id, box);
             if(!checkWinOrDrawProbability(me, areaTemplate)){switchTurn(me, other);}
