@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restart"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ttcImage"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/ttt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.508"
+        android:scaleType="fitCenter"/>
+
+    <ImageView
+        android:id="@+id/box1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+
+        app:layout_constraintBottom_toBottomOf="@id/ttcImage"
+        app:layout_constraintEnd_toEndOf="@id/ttcImage"
+        app:layout_constraintStart_toStartOf="@+id/ttcImage"
+        app:layout_constraintTop_toTopOf="@+id/ttcImage"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/box2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@id/ttcImage"
+        app:layout_constraintEnd_toEndOf="@id/ttcImage"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="@+id/ttcImage"
+        app:layout_constraintTop_toTopOf="@+id/ttcImage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/box3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@id/ttcImage"
+        app:layout_constraintEnd_toEndOf="@id/ttcImage"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="@+id/ttcImage"
+        app:layout_constraintTop_toTopOf="@+id/ttcImage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/box4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@id/ttcImage"
+        app:layout_constraintEnd_toEndOf="@id/ttcImage"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ttcImage"
+        app:layout_constraintTop_toTopOf="@+id/ttcImage"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <ImageView
+        android:id="@+id/box5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@id/ttcImage"
+        app:layout_constraintEnd_toEndOf="@id/ttcImage"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="@+id/ttcImage"
+        app:layout_constraintTop_toTopOf="@+id/ttcImage"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <ImageView
+        android:id="@+id/box6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@id/ttcImage"
+        app:layout_constraintEnd_toEndOf="@id/ttcImage"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="@+id/ttcImage"
+        app:layout_constraintTop_toTopOf="@+id/ttcImage"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <ImageView
+        android:id="@+id/box7"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@id/ttcImage"
+        app:layout_constraintEnd_toEndOf="@id/ttcImage"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="@+id/ttcImage"
+        app:layout_constraintTop_toTopOf="@+id/ttcImage"
+        app:layout_constraintVertical_bias="0.944" />
+
+    <ImageView
+        android:id="@+id/box8"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@id/ttcImage"
+        app:layout_constraintEnd_toEndOf="@id/ttcImage"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="@+id/ttcImage"
+        app:layout_constraintTop_toTopOf="@+id/ttcImage"
+        app:layout_constraintVertical_bias="0.944" />
+
+    <ImageView
+        android:id="@+id/box9"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@id/ttcImage"
+        app:layout_constraintEnd_toEndOf="@id/ttcImage"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="@+id/ttcImage"
+        app:layout_constraintTop_toTopOf="@+id/ttcImage"
+        app:layout_constraintVertical_bias="0.972" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

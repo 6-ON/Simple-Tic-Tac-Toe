@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="headertxt">Enjoy Playing</string>
+    <string name="finishedGameText">Game is Finished :)</string>
+</resources>
